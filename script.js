@@ -7,3 +7,5 @@ function getMoviesById(movieId){
     return fetch(`${BASE_URL}/movies/${movieId}`)
      .then(response=>response.json())
   }
+
+  
